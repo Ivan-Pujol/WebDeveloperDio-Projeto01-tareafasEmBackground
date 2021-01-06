@@ -1,0 +1,33 @@
+{
+  "name": "projeto01dio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-Pujol/WebDeveloperDio-Projeto01-tareafasEmBackground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivan-Pujol/WebDeveloperDio-Projeto01-tareafasEmBackground/issues"
+  },
+  "homepage": "https://github.com/Ivan-Pujol/WebDeveloperDio-Projeto01-tareafasEmBackground#readme",
+  "dependencies": {
+    "bull": "^3.20.0",
+    "bull-board": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.17.0"
+  }
+}
